@@ -45,9 +45,10 @@ def add_to_cart(cart, products)
         add_to_cart(cart, products)
         end
       if response2 == "no"
-        puts "Thank you for shopping at Sephora! 
-        
-        Your total is: $#{cart.values.inject(:+)}"
+        puts "
+Your total is: $#{cart.values.inject(:+)}
+Thank you for shopping at Sephora!"
+
     end
 end
 
